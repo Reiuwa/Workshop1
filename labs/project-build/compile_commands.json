@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/reiuwa/projects/Workshop1/labs/project-build/program",
+  "command": "/usr/bin/g++  -I/home/reiuwa/projects/Workshop1/labs/project/program/include -g3 -gdwarf-4 -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/reiuwa/projects/Workshop1/labs/project/program/src/main.cpp",
+  "file": "/home/reiuwa/projects/Workshop1/labs/project/program/src/main.cpp",
+  "output": "program/CMakeFiles/Program.dir/src/main.cpp.o"
+}
+]
