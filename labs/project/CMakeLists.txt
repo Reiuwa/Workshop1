@@ -28,3 +28,5 @@ set(CMAKE_VERBOSE_MAKEFILE TRUE)
 add_subdirectory(program)
 #Enabling unit tests will add additional target test in Makefile files.
 enable_testing()
+# Include subproject residing in subdirectory library.
+add_subdirectory(library)

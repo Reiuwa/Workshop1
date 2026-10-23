@@ -99,6 +99,7 @@ Program_EXTERNAL_OBJECTS =
 program/Program: program/CMakeFiles/Program.dir/src/main.cpp.o
 program/Program: program/CMakeFiles/Program.dir/build.make
 program/Program: program/CMakeFiles/Program.dir/compiler_depend.ts
+program/Program: library/libLibrary.a
 program/Program: program/CMakeFiles/Program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/reiuwa/projects/Workshop1/labs/project-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Program"
 	cd /home/reiuwa/projects/Workshop1/labs/project-build/program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Program.dir/link.txt --verbose=$(VERBOSE)

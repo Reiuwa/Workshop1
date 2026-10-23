@@ -5,3 +5,7 @@
 /home/reiuwa/projects/Workshop1/labs/project-build/program/CMakeFiles/test.dir
 /home/reiuwa/projects/Workshop1/labs/project-build/program/CMakeFiles/edit_cache.dir
 /home/reiuwa/projects/Workshop1/labs/project-build/program/CMakeFiles/rebuild_cache.dir
+/home/reiuwa/projects/Workshop1/labs/project-build/library/CMakeFiles/Library.dir
+/home/reiuwa/projects/Workshop1/labs/project-build/library/CMakeFiles/test.dir
+/home/reiuwa/projects/Workshop1/labs/project-build/library/CMakeFiles/edit_cache.dir
+/home/reiuwa/projects/Workshop1/labs/project-build/library/CMakeFiles/rebuild_cache.dir

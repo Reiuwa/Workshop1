@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/reiuwa/projects/Workshop1/labs/project/program/include
+CXX_INCLUDES = -I/home/reiuwa/projects/Workshop1/labs/project/program/include -I/home/reiuwa/projects/Workshop1/labs/project/library/include
 
 CXX_FLAGS = -g3 -gdwarf-4 -std=gnu++11
 

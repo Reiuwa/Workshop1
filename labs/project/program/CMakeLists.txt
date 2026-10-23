@@ -12,3 +12,6 @@ add_executable(Program ${SOURCE_FILES})
 #Specify include directory of Program subproject to global list.
 #Thanks to this all other subprojects will be able to "see" this directory.
 target_include_directories(Program PUBLIC include)
+
+# Specify dependency between projects Program and Library
+target_link_libraries(Program Library)

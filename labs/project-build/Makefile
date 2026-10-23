@@ -142,6 +142,19 @@ Program/fast:
 	$(MAKE) $(MAKESILENT) -f program/CMakeFiles/Program.dir/build.make program/CMakeFiles/Program.dir/build
 .PHONY : Program/fast
 
+#=============================================================================
+# Target rules for targets named Library
+
+# Build rule for target.
+Library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Library
+.PHONY : Library
+
+# fast build rule for target.
+Library/fast:
+	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
+.PHONY : Library/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -151,6 +164,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... Library"
 	@echo "... Program"
 .PHONY : help
 
